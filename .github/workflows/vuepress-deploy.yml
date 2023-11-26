@@ -13,11 +13,11 @@ jobs:
         node-version: 18
           
     - name: 01.vuepress-deploy
-      uses: jenkey2011/01.vuepress-deploy@master
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: syueya/01.vuepress-theme-voding
+        TARGET_REPO: syueya/vuepress-theme-voding
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn docs:build
-        BUILD_DIR: docs/.01.vuepress/dist
+        BUILD_DIR: docs/.vuepress/dist
         CNAME: https://vdoing.246855.xyz
