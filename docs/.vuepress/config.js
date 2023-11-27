@@ -11,7 +11,7 @@ module.exports = {
   // 主题配置
   themeConfig: {
     logo: '/img/syue.png', // 导航栏logo
-    repo: 'https://github.com/syueya/myblog',  // 导航栏右侧生成Github链接
+    //repo: 'https://github.com/syueya/myblog',  // 导航栏右侧生成Github链接
     nav, // 插入导航页模块
     sidebarDepth: 2, //设置根据页面标题自动生成的侧边栏的最大深度。默认值： 2，类型： number
     searchMaxSuggestions: 5, // 搜索结果显示最大数
@@ -38,7 +38,7 @@ module.exports = {
 
   markdown: {
     // lineNumbers: true,
-    extractHeaders: ["h2"], // 提取标题到侧边栏的级别，默认['h2', 'h3']
+    extractHeaders: ['h2', 'h3', 'h4'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
 
   // 监听文件变化并重新构建

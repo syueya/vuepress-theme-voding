@@ -3,12 +3,12 @@ module.exports = [
 
   {
     text: '娱乐',
-    link: '/fun/qBittorrent/',
+    link: '/fun/emby/',
   },
 
   {
     text: '工具',
-    link: '/tool/homepage/',
+    link: '/tool/qBittorrent/',
   },
 
   {
