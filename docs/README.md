@@ -10,15 +10,15 @@ tagline: 积跬步以至千里，致敬每个爱学习的你
 features: # 可选的
   - title: 娱乐
     details: 影视、音乐、有声书等docker
-    link: /fun/ # 可选
+    link: /fun/kodi/ # 可选
     imgUrl: /img/fun.png # 可选
   - title: 工具
     details: 工具类docker
-    link: /tool/
+    link: /tool/qBittorrent/
     imgUrl: /img/tool.png
   - title: 网络
     details: 网络类docker
-    link: /network/
+    link: /network/ddnsto/
     imgUrl: /img/network.png
 
 
