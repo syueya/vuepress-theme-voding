@@ -16,4 +16,8 @@ module.exports = [
     link: '/network/ddnsto/',
   },
 
+  {
+    text: '其它',
+    link: '/other/tmdb_api/',
+  },
 ];
