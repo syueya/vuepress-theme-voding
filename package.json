@@ -12,9 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dayjs": "^1.11.10",
     "vuepress-theme-vdoing": "1.12.8"
   },
   "devDependencies": {
-    "vuepress": "^1.9.10"
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-one-click-copy": "^1.0.6",
+    "vuepress-plugin-zooming": "^1.1.8"
   }
 }

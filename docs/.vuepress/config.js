@@ -75,25 +75,28 @@ module.exports = {
       "@vuepress/last-updated", // "上次更新"时间格式
       {
         transformer: (timestamp, lang) => {
-          const dayjs = require("dayjs"); // https://day.js.org/
+          const dayjs = require("dayjs"); // 导入dayjs，https://day.js.org/
           return dayjs(timestamp).format("YYYY/MM/DD, HH:mm:ss");
         },
       },
     ],
 
-    /*  [
-      "vuepress-plugin-vdoing-comment",
+
+    [
+      'vuepress-plugin-comment', // 评论
       {
-        choosen: "artalk",
+        choosen: 'valine',
         options: {
-          server: "https://wiki.msaber.fun/", // （必填）
-          site: "Media Saber", // （必填）
-          // disableEmotion: false, // 是否禁用表情（可选）
-          // disablePicture: true, // 是否禁用图片（可选）
-          // disablePreview: false // 是否禁用预览（可选）
-        },
-      },
-    ], */
+          el: '#valine-vuepress-comment',
+          appId: 'aQjGpWecvvg4dhtuFvbPNUM1-gzGzoHsz',
+          appKey: '8qergMZ9vsdvAXwiJhrpWUBp',
+          path: '<%- frontmatter.commentid || frontmatter.permalink %>'
+        }
+      }
+    ],
+
+
+
   ],
 
 
